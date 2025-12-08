@@ -56,6 +56,6 @@ Las métricas disponibles son las siguientes:
 
 * **[!UICONTROL Alza]**: medición de la mejora porcentual en la tasa de conversión de un tratamiento determinado respecto al valor de referencia.
 
-* **[!UICONTROL Confianza]**: Evidencia de que un tratamiento dado es el mismo que el tratamiento basal. [Más información](http://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/technotes/experiment-calculations)
+* **[!UICONTROL Confianza]**: Evidencia de que un tratamiento dado es el mismo que el tratamiento basal. [Más información](http://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/content-experiment/technotes/experiment-calculations)
 
 * **[!UICONTROL Contribución]**: La proporción del cambio general en la métrica que puede atribuirse a un experimento o tratamiento específico, lo que permite identificar las iniciativas que ejercen el mayor impacto relativo.

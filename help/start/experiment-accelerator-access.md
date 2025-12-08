@@ -16,7 +16,7 @@ ht-degree: 20%
 
 # Acceso a Journey Optimizer Experimentation Accelerator
 
-Después de [crear y configurar tu experimento](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment) y de enviar tus campañas o recorridos a tus perfiles, puedes acceder a **[!UICONTROL Journey Optimizer Experimentation Accelerator]** para profundizar en el rendimiento de tu experimento.
+Después de [crear y configurar tu experimento](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/content-experiment/content-experiment) y de enviar tus campañas o recorridos a tus perfiles, puedes acceder a **[!UICONTROL Journey Optimizer Experimentation Accelerator]** para profundizar en el rendimiento de tu experimento.
 
 Puede acceder a **[!UICONTROL Journey Optimizer Experimentation Accelerator]** desde el menú de la izquierda de la lista desplegable [!UICONTROL Experimentación] o a través del conmutador Aplicaciones. Tenga en cuenta que los usuarios que solo tengan una licencia de Target solo pueden acceder a ella a través del conmutador Aplicaciones.
 
