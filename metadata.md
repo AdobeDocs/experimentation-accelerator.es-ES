@@ -7,9 +7,9 @@ mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/experimentation-accelerator.es-ES
 index: true
 source-git-commit: 1e6d11dd95e3f73477b038e4fb11a368c3e7310e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '53'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
