@@ -9,7 +9,7 @@ level: Beginner
 keywords: contenido, experimento, múltiple, público, tratamiento
 source-git-commit: 83cc6dccc20323efc96a09ee1bfda0aa38e52009
 workflow-type: ht
-source-wordcount: '205'
+source-wordcount: '211'
 ht-degree: 100%
 
 ---
@@ -38,6 +38,6 @@ Los beneficios clave incluyen:
 <tr style="border: 0; text-align: center;">
 <td><a href="../start/experiment-accelerator-access.md"><img width="70%" alt="introducción" src="../assets/do-not-localize/a-b-test.png"></a><br/><a href="../start/experiment-accelerator-access.md">Introducción a Journey Optimizer Experimentation Accelerator</a></td>
 <td><a href="../start/experiment-accelerator-best-practices.md"><img width="70%" alt="prácticas recomendadas" src="../assets/do-not-localize/best-practices.png"></a><br/><a href="../start/experiment-accelerator-best-practices.md">Prácticas recomendadas de Journey Optimizer Experimentation Accelerator</a></td>
-<td><a href="../track/experiment-accelerator-monitor.md"><img width="70%" alt="rastrear" src="../assets/do-not-localize/track.png"></a></br><a href="../track/experiment-accelerator-monitor.md">Seguimiento y monitorización del rendimiento de los experimentos</a></td>
+<td><a href="../track/experiment-accelerator-monitor.md"><img width="70%" alt="rastrear" src="../assets/do-not-localize/track.png"></a></br><a href="../track/experiment-accelerator-monitor.md">Hacer un seguimiento y monitorizar el rendimiento de los experimentos</a></td>
 </tr>
 </table>

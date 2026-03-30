@@ -17,6 +17,6 @@ ht-degree: 100%
    + [Acceder a Journey Optimizer Experimentation Accelerator](../start/experiment-accelerator-access.md)
    + [Uso de datos en IA](../start/experiment-accelerator-security.md)
    + [Prácticas recomendadas](../start/experiment-accelerator-best-practices.md)
-+ Supervisar{#monitor}
++ Monitorizar{#monitor}
    + [Seguir los experimentos](../track/experiment-accelerator-monitor.md)
    + [Analizar métricas del experimento](../track/experiment-accelerator-metrics.md)
