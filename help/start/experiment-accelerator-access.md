@@ -2,21 +2,21 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizer Experimentation Accelerator
-description: Mejore su capacidad para realizar experimentos de forma eficaz y generar perspectivas
+description: Mejore su capacidad para realizar experimentos de forma eficaz y generar datos
 topic: Content Management
 role: User
 level: Beginner
-keywords: contenido, experimento, múltiple, audiencia, tratamiento
-source-git-commit: b85ae521647894c7dcc77f8f192d9bea650a07dc
+keywords: contenido, experimento, múltiple, público, tratamiento
+source-git-commit: 4f30411591ab3bec4b749cfb58f437ddb3474ffa
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 20%
+source-wordcount: '507'
+ht-degree: 18%
 
 ---
 
-# Acceso a Journey Optimizer Experimentation Accelerator
+# Acceder a Journey Optimizer Experimentation Accelerator
 
-Después de [crear y configurar tu experimento](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/content-experiment/content-experiment) y de enviar tus campañas o recorridos a tus perfiles, puedes acceder a **[!UICONTROL Journey Optimizer Experimentation Accelerator]** para profundizar en el rendimiento de tu experimento.
+Después de [crear y configurar tu experimento](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment) y de enviar tus campañas o recorridos a tus perfiles, puedes acceder a **[!UICONTROL Journey Optimizer Experimentation Accelerator]** para profundizar en el rendimiento de tu experimento.
 
 Puede acceder a **[!UICONTROL Journey Optimizer Experimentation Accelerator]** desde el menú de la izquierda de la lista desplegable [!UICONTROL Experimentación] o a través del conmutador Aplicaciones. Tenga en cuenta que los usuarios que solo tengan una licencia de Target solo pueden acceder a ella a través del conmutador Aplicaciones.
 
@@ -35,7 +35,7 @@ Para usar **[!UICONTROL Journey Optimizer Experimentation Accelerator]**, necesi
 * **[!UICONTROL Ver experimentos]**
 * **[!UICONTROL Administrar metadatos de experimento]**
 
-+++ Obtenga información sobre cómo asignar permisos relacionados con Experimentos
++++ Obtenga información sobre cómo asignar permisos relacionados con Experimentos con una licencia de Adobe Experience Platform o Adobe Recorrido Optimizer
 
 1. En el producto **[!DNL Permissions]**, vaya a la ficha **[!UICONTROL Roles]** y seleccione el **[!UICONTROL Rol]** que desee.
 
@@ -58,6 +58,48 @@ Para asignar esta función a nuevos usuarios:
    Si el usuario no se creó anteriormente, consulte [esta documentación](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/abac/permissions-ui/users).
 
 El usuario recibirá un correo electrónico con instrucciones para acceder a su instancia.
+
++++
+
+</br>
+
++++ Obtenga información sobre cómo asignar permisos relacionados con experimentos con licencias de Adobe Target
+
+1. Abra **[Admin Console](http://adminconsole.adobe.com/)**.
+
+1. En **[!UICONTROL Productos]**, elija **[!UICONTROL Adobe Experience Platform]**.
+
+1. Haga clic en **[!UICONTROL Nuevo perfil]**.
+
+   ![](assets/permission-target.png)
+
+1. Escriba un **[!UICONTROL Nombre]** y una **[!UICONTROL Descripción]** para el perfil y, a continuación, haga clic en **[!UICONTROL Guardar]**.
+
+1. Abra el **[!UICONTROL perfil]** recién creado y vaya a la ficha **[!UICONTROL Permisos]**.
+
+1. Haga clic en ![](assets/do-not-localize/Smock_Edit_18_N.svg) junto al permiso **[!UICONTROL acelerador de experimentación]**.
+
+   ![](assets/permission-target-1.png)
+
+1. Añada los permisos que debe tener este perfil, como **[!UICONTROL Ver experimentos]** y **[!UICONTROL Administrar metadatos de experimento]**, y luego haga clic en **[!UICONTROL Guardar]**.
+
+   >[!TIP]
+   >
+   > Cree perfiles independientes cuando los usuarios necesiten niveles de acceso diferentes. Por ejemplo, cree un perfil de **[!UICONTROL Experimentation Accelerator Viewer]** con solo **[!UICONTROL Ver experimentos]** y un perfil de **[!UICONTROL Experimentation Accelerator Editor]** con **[!UICONTROL Ver experimentos]** y **[!UICONTROL Administrar metadatos de experimento]**.
+
+   ![](assets/permission-target-2.png)
+
+1. En la ficha **[!UICONTROL Permisos]**, seleccione **[!UICONTROL Zonas protegidas]**.
+
+1. Agregue las zonas protegidas en las que los usuarios deben poder usar Journey Optimizer Experimentation Accelerator y luego haga clic en **[!UICONTROL Guardar]**.
+
+1. Abra la ficha **[!UICONTROL Usuarios]** y haga clic en **[!UICONTROL Agregar usuarios]**.
+
+   ![](assets/permission-target-3.png)
+
+1. Agregue los usuarios que deben recibir este acceso y luego haga clic en **[!UICONTROL Guardar]**.
+
+Los usuarios añadidos a este perfil ahora pueden acceder a Journey Optimizer Experimentation Accelerator desde el conmutador de aplicaciones.
 
 +++
 
