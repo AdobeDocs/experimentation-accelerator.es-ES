@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Prácticas recomendadas de Journey Optimizer Experimentation Accelerator
-description: Mejore su capacidad para realizar experimentos de forma eficaz y generar perspectivas
+description: Mejore su capacidad para realizar experimentos de forma eficaz y generar datos
 topic: Content Management
 role: User
 level: Beginner
-keywords: contenido, experimento, múltiple, audiencia, tratamiento
-source-git-commit: c52010f196f46d234066fd34ae8e9c0be7d2148b
+keywords: contenido, experimento, múltiple, público, tratamiento
+source-git-commit: 020ed6c652c66ed78789a5a90dfc8c8dece624a9
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 2%
+source-wordcount: '743'
+ht-degree: 6%
 
 ---
 
@@ -85,11 +85,11 @@ Ejemplo: _Creemos que cambiar X aumentará Y debido a Z._
 Un buen experimento no solo produce una victoria, sino que produce un aprendizaje claro y procesable.
 Esto es lo que hay que buscar:
 
-&check; **Confianza estadística**: Es poco probable que la diferencia entre las variantes se deba a la casualidad.
-&check; **Alineación con objetivos**: La métrica principal refleja un progreso significativo hacia un objetivo comercial.
-&amp; check; **Impacto secundario**: No hay efectos secundarios negativos significativos en las métricas relacionadas.
-&check; **Escalabilidad**: El resultado puede informar decisiones futuras o generalizarse a otras áreas.
-&check; **Claridad**: La causa del resultado está razonablemente aislada y comprendida.
+&amp;check; **Confianza estadística**: Es poco probable que la diferencia entre las variantes se deba a la casualidad.
+&amp;check; **Alineación con objetivos**: La métrica principal refleja un progreso significativo hacia un objetivo comercial.
+&amp;check; **Impacto secundario**: No hay efectos secundarios negativos significativos en las métricas relacionadas.
+&amp;check; **Escalabilidad**: El resultado puede informar decisiones futuras o generalizarse a otras áreas.
+&amp;check; **Claridad**: La causa del resultado está razonablemente aislada y comprendida.
 
 La experimentación no se trata solo de encontrar la &quot;mejor&quot; versión, se trata de generar conocimiento a través de pruebas e iteraciones. Cuando se hace bien, los experimentos revelan perspectivas que impulsan decisiones más inteligentes, mejores experiencias de usuario y resultados mejorados.
 
