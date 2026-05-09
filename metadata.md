@@ -1,7 +1,8 @@
 ---
 cloud: Experience Cloud
 solution: Journey Optimizer
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 product: Journey Optimizer
 type: Documentation
 mini-toc-levels: 2
