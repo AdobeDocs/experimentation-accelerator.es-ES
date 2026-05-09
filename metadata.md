@@ -6,7 +6,7 @@ product_v2:
 product: Journey Optimizer
 type: Documentation
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/experimentation-accelerator.en
+git-repo: https://github.com/AdobeDocs/experimentation-accelerator.es-ES
 index: true
 source-git-commit: ef20f73c2fa253f082de190826bc04100962a00f
 workflow-type: tm+mt
