@@ -8,12 +8,21 @@ role: User
 level: Beginner
 keywords: contenido, experimento, múltiple, público, tratamiento
 TQID: https://experienceleague.adobe.com/IdmANJYjfwZM29SBj0fDH-BzBet54Zq0VGmIMRRn-hE
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 659a4723ac8b7cbaf3ea06c34107bf876612ccb4
 workflow-type: tm+mt
 source-wordcount: 743
@@ -92,11 +101,11 @@ Ejemplo: _Creemos que cambiar X aumentará Y debido a Z._
 Un buen experimento no solo produce una victoria, sino que produce un aprendizaje claro y procesable.
 Esto es lo que hay que buscar:
 
-&amp;check; **Confianza estadística**: Es poco probable que la diferencia entre las variantes se deba a la casualidad.
-&amp;check; **Alineación con objetivos**: La métrica principal refleja un progreso significativo hacia un objetivo comercial.
-&amp;check; **Impacto secundario**: No hay efectos secundarios negativos significativos en las métricas relacionadas.
-&amp;check; **Escalabilidad**: El resultado puede informar decisiones futuras o generalizarse a otras áreas.
-&amp;check; **Claridad**: La causa del resultado está razonablemente aislada y comprendida.
+&check; **Confianza estadística**: Es poco probable que la diferencia entre las variantes se deba a la casualidad.
+&check; **Alineación con objetivos**: La métrica principal refleja un progreso significativo hacia un objetivo comercial.
+&check; **Impacto secundario**: No hay efectos secundarios negativos significativos en las métricas relacionadas.
+&check; **Escalabilidad**: El resultado puede informar decisiones futuras o generalizarse a otras áreas.
+&check; **Claridad**: La causa del resultado está razonablemente aislada y comprendida.
 
 La experimentación no se trata solo de encontrar la &quot;mejor&quot; versión, se trata de generar conocimiento a través de pruebas e iteraciones. Cuando se hace bien, los experimentos revelan perspectivas que impulsan decisiones más inteligentes, mejores experiencias de usuario y resultados mejorados.
 
