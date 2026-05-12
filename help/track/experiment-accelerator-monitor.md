@@ -2,19 +2,26 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: monitor de Journey Optimizer Experimentation Accelerator
-description: Mejore su capacidad para realizar experimentos de forma eficaz y generar perspectivas
+description: Mejore su capacidad para realizar experimentos de forma eficaz y generar datos
 topic: Content Management
 role: User
 level: Beginner
-keywords: contenido, experimento, múltiple, audiencia, tratamiento
-source-git-commit: c52010f196f46d234066fd34ae8e9c0be7d2148b
+keywords: contenido, experimento, múltiple, público, tratamiento
+TQID: https://experienceleague.adobe.com/IYG2Jag2XtctyPaYmQfhdMm0Ac5tEg7EA7gOw7GzUk4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 659a4723ac8b7cbaf3ea06c34107bf876612ccb4
 workflow-type: tm+mt
-source-wordcount: '1096'
-ht-degree: 1%
+source-wordcount: 1127
+ht-degree: 3%
 
 ---
 
-# Seguimiento de experimentos {#monitor}
+# Seguir los experimentos {#monitor}
 
 La pestaña **[!UICONTROL Experimentos]** centraliza el seguimiento y el análisis de las pruebas de Adobe Journey Optimizer y Adobe Target. Puede ver todos los experimentos, revisar los KPI y filtrar o buscar pruebas específicas.
 
@@ -145,7 +152,7 @@ Tenga en cuenta que para que se generen oportunidades de experimento, primero de
 
    Para los experimentos que se originen desde **[!DNL Adobe Target]**, los cambios sugeridos se cargarán en el flujo de trabajo de experimentación de **[!DNL Adobe Target]**.
 
-   ➡️ [Obtenga más información en la documentación de Adobe Target](https://experienceleague.adobe.com/es/docs/target/using/activities/abtest/test-ab)
+   ➡️ [Obtenga más información en la documentación de Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/activities/abtest/test-ab)
 
 1. En la vista de experimento, se puede acceder a las mismas **[!UICONTROL oportunidades de experimentación]** de IA que aparecen en Journey Optimizer Experimentation Accelerator.
 
@@ -167,7 +174,7 @@ La tabla **[!UICONTROL Results]** proporciona un desglose detallado del rendimie
 
 * **[!UICONTROL Alza]**: medición de la mejora porcentual en la tasa de conversión de un tratamiento determinado respecto al valor de referencia.
 
-* **[!UICONTROL Confianza]**: Evidencia de que un tratamiento dado es el mismo que el tratamiento basal. [Más información](http://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/content-experiment/technotes/experiment-calculations)
+* **[!UICONTROL Confianza]**: Evidencia de que un tratamiento dado es el mismo que el tratamiento basal. [Más información](http://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/technotes/experiment-calculations)
 
 * **[!UICONTROL Tasa de conversión]**: porcentaje de perfiles que completaron la acción deseada (por ejemplo, compra, registro) después de ver el tratamiento.
 

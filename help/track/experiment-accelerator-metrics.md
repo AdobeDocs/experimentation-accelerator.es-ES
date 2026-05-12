@@ -2,15 +2,22 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Métricas de Journey Optimizer Experimentation Accelerator
-description: Mejore su capacidad para realizar experimentos de forma eficaz y generar perspectivas
+description: Mejore su capacidad para realizar experimentos de forma eficaz y generar datos
 topic: Content Management
 role: User
 level: Beginner
-keywords: contenido, experimento, múltiple, audiencia, tratamiento
-source-git-commit: c52010f196f46d234066fd34ae8e9c0be7d2148b
+keywords: contenido, experimento, múltiple, público, tratamiento
+TQID: https://experienceleague.adobe.com/OrtdIfQfKMIWODRi9fr-dEuc7g06hISv6-Dq-54qGeY
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 659a4723ac8b7cbaf3ea06c34107bf876612ccb4
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 2%
+source-wordcount: 364
+ht-degree: 6%
 
 ---
 
@@ -56,6 +63,6 @@ Las métricas disponibles son las siguientes:
 
 * **[!UICONTROL Alza]**: medición de la mejora porcentual en la tasa de conversión de un tratamiento determinado respecto al valor de referencia.
 
-* **[!UICONTROL Confianza]**: Evidencia de que un tratamiento dado es el mismo que el tratamiento basal. [Más información](http://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/content-experiment/technotes/experiment-calculations)
+* **[!UICONTROL Confianza]**: Evidencia de que un tratamiento dado es el mismo que el tratamiento basal. [Más información](http://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/technotes/experiment-calculations)
 
 * **[!UICONTROL Contribución]**: La proporción del cambio general en la métrica que puede atribuirse a un experimento o tratamiento específico, lo que permite identificar las iniciativas que ejercen el mayor impacto relativo.
