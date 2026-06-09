@@ -25,10 +25,10 @@ level_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 659a4723ac8b7cbaf3ea06c34107bf876612ccb4
+source-git-commit: c07dc7f896f9c65980339f4a7fc94123fa8afe71
 workflow-type: tm+mt
-source-wordcount: 1127
-ht-degree: 3%
+source-wordcount: 1367
+ht-degree: 2%
 
 ---
 
@@ -62,6 +62,7 @@ Para acceder y monitorizar tus experimentos, selecciona tu experimento configura
 La página de detalles del experimento se divide en la siguiente sección:
 
 * [Resultado del experimento](#experiment-outcome)
+* [Métrica principal](#change-primary-metric)
 * [Hipótesis](#hypothesis)
 * [Detalles](#details)
 * [Oportunidades](#opportunities)
@@ -73,6 +74,42 @@ La página de detalles del experimento se divide en la siguiente sección:
 ![](assets/experiment-monitor-outcome.png)
 
 El **[!UICONTROL resultado del experimento]** le ofrece una vista rápida de la variación ganadora de su experimento.
+
+### Cambio de la métrica principal {#change-primary-metric}
+
+>[!AVAILABILITY]
+>
+>Solo los usuarios con el permiso **[!UICONTROL Administrar metadatos de experimento]** pueden cambiar la métrica principal.
+
+El cambio de la métrica principal se aplica a los equipos que usan **[!DNL Customer Journey Analytics]** o **[!DNL Adobe Analytics]** como fuente de informes para los experimentos creados en **[!DNL Adobe Target]** o **[!DNL Adobe Journey Optimizer]**.
+
+Tenga en cuenta lo siguiente al establecer o cambiar la métrica principal:
+
+* Se importa una métrica a la vez. Su elección se almacena como métrica principal para ese experimento.
+
+* Las actualizaciones solo se aplican en Journey Optimizer Experimentation Accelerator. No se vuelven a escribir en Adobe Target o Adobe Journey Optimizer.
+
+* Si su organización utiliza únicamente Adobe Target como fuente de informes, no puede cambiar la métrica principal después de publicar la prueba.
+
+Para cambiar la métrica principal de un experimento existente, siga estos pasos:
+
+1. En el experimento, haga clic en **[!UICONTROL Seleccionar métrica principal]** si no se ha asignado ninguna o en **[!UICONTROL Editar]** si desea cambiarla.
+
+   ![](assets/primary-metric-1.png)
+
+1. Seleccione una métrica que coincida con el conjunto de orígenes de informes cuando se creó este experimento en **[!DNL Adobe Target]** o **[!DNL Adobe Journey Optimizer]**.
+
+   Las métricas disponibles están determinadas por el origen de datos configurado en **[!DNL Adobe Target]** o **[!DNL Adobe Journey Optimizer]**. Por ejemplo, si se seleccionó **[!DNL Customer Journey Analytics]** (CJA) como el origen de informes en Target, solo estarán disponibles para la importación las métricas de CJA. No puede cambiar a una métrica desde una fuente de datos diferente y no puede cambiar la métrica principal a una métrica **[!DNL Adobe Target]** nativa.
+
+1. Utilice la búsqueda para buscar una métrica por su nombre o utilice el filtro para ver las métricas que ya se han utilizado en experimentos activos.
+
+   ![](assets/primary-metric-1.png)
+
+1. Guarde la selección.
+
+Al cambiar la métrica principal, las perspectivas y oportunidades generadas anteriormente se borran y regeneran. Durante la regeneración, se muestra el siguiente mensaje:
+
+`Opportunities are being regenerated based on the selected metric. Updates will appear soon.`
 
 ### Configuración {#set-up}
 
