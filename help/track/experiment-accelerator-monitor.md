@@ -8,27 +8,16 @@ role: User
 level: Beginner
 keywords: contenido, experimento, múltiple, público, tratamiento
 TQID: https://experienceleague.adobe.com/IYG2Jag2XtctyPaYmQfhdMm0Ac5tEg7EA7gOw7GzUk4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 659a4723ac8b7cbaf3ea06c34107bf876612ccb4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: c07dc7f896f9c65980339f4a7fc94123fa8afe71
 workflow-type: tm+mt
-source-wordcount: 1127
-ht-degree: 3%
+source-wordcount: 1367
+ht-degree: 2%
 
 ---
 
@@ -62,6 +51,7 @@ Para acceder y monitorizar tus experimentos, selecciona tu experimento configura
 La página de detalles del experimento se divide en la siguiente sección:
 
 * [Resultado del experimento](#experiment-outcome)
+* [Métrica principal](#change-primary-metric)
 * [Hipótesis](#hypothesis)
 * [Detalles](#details)
 * [Oportunidades](#opportunities)
@@ -73,6 +63,42 @@ La página de detalles del experimento se divide en la siguiente sección:
 ![](assets/experiment-monitor-outcome.png)
 
 El **[!UICONTROL resultado del experimento]** le ofrece una vista rápida de la variación ganadora de su experimento.
+
+### Cambio de la métrica principal {#change-primary-metric}
+
+>[!AVAILABILITY]
+>
+>Solo los usuarios con el permiso **[!UICONTROL Administrar metadatos de experimento]** pueden cambiar la métrica principal.
+
+El cambio de la métrica principal se aplica a los equipos que usan **[!DNL Customer Journey Analytics]** o **[!DNL Adobe Analytics]** como fuente de informes para los experimentos creados en **[!DNL Adobe Target]** o **[!DNL Adobe Journey Optimizer]**.
+
+Tenga en cuenta lo siguiente al establecer o cambiar la métrica principal:
+
+* Se importa una métrica a la vez. Su elección se almacena como métrica principal para ese experimento.
+
+* Las actualizaciones solo se aplican en Journey Optimizer Experimentation Accelerator. No se vuelven a escribir en Adobe Target o Adobe Journey Optimizer.
+
+* Si su organización utiliza únicamente Adobe Target como fuente de informes, no puede cambiar la métrica principal después de publicar la prueba.
+
+Para cambiar la métrica principal de un experimento existente, siga estos pasos:
+
+1. En el experimento, haga clic en **[!UICONTROL Seleccionar métrica principal]** si no se ha asignado ninguna o en **[!UICONTROL Editar]** si desea cambiarla.
+
+   ![](assets/primary-metric-1.png)
+
+1. Seleccione una métrica que coincida con el conjunto de orígenes de informes cuando se creó este experimento en **[!DNL Adobe Target]** o **[!DNL Adobe Journey Optimizer]**.
+
+   Las métricas disponibles están determinadas por el origen de datos configurado en **[!DNL Adobe Target]** o **[!DNL Adobe Journey Optimizer]**. Por ejemplo, si se seleccionó **[!DNL Customer Journey Analytics]** (CJA) como el origen de informes en Target, solo estarán disponibles para la importación las métricas de CJA. No puede cambiar a una métrica desde una fuente de datos diferente y no puede cambiar la métrica principal a una métrica **[!DNL Adobe Target]** nativa.
+
+1. Utilice la búsqueda para buscar una métrica por su nombre o utilice el filtro para ver las métricas que ya se han utilizado en experimentos activos.
+
+   ![](assets/primary-metric-1.png)
+
+1. Guarde la selección.
+
+Al cambiar la métrica principal, las perspectivas y oportunidades generadas anteriormente se borran y regeneran. Durante la regeneración, se muestra el siguiente mensaje:
+
+`Opportunities are being regenerated based on the selected metric. Updates will appear soon.`
 
 ### Configuración {#set-up}
 
@@ -163,7 +189,7 @@ Tenga en cuenta que para que se generen oportunidades de experimento, primero de
 
    Para los experimentos que se originen desde **[!DNL Adobe Target]**, los cambios sugeridos se cargarán en el flujo de trabajo de experimentación de **[!DNL Adobe Target]**.
 
-   ➡️ [Obtenga más información en la documentación de Adobe Target](https://experienceleague.adobe.com/es/docs/target/using/activities/abtest/test-ab)
+   ➡️ [Obtenga más información en la documentación de Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/activities/abtest/test-ab)
 
 1. En la vista de experimento, se puede acceder a las mismas **[!UICONTROL oportunidades de experimentación]** de IA que aparecen en Journey Optimizer Experimentation Accelerator.
 
@@ -185,7 +211,7 @@ La tabla **[!UICONTROL Results]** proporciona un desglose detallado del rendimie
 
 * **[!UICONTROL Alza]**: medición de la mejora porcentual en la tasa de conversión de un tratamiento determinado respecto al valor de referencia.
 
-* **[!UICONTROL Confianza]**: Evidencia de que un tratamiento dado es el mismo que el tratamiento basal. [Más información](http://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/content-experiment/technotes/experiment-calculations)
+* **[!UICONTROL Confianza]**: Evidencia de que un tratamiento dado es el mismo que el tratamiento basal. [Más información](http://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/technotes/experiment-calculations)
 
 * **[!UICONTROL Tasa de conversión]**: porcentaje de perfiles que completaron la acción deseada (por ejemplo, compra, registro) después de ver el tratamiento.
 
